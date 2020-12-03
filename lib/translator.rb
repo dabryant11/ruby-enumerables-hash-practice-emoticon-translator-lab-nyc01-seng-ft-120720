@@ -50,8 +50,9 @@ def get_english_meaning(file_path,emoticon)
 
     emoticons.each do |key,value|
         value.each do |key2, value2|
+          binding.pry
           if emoticon == value2
-            return value2[:english]
+            return value[:english]
           end 
         end
     end 
