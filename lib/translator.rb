@@ -27,7 +27,10 @@ emoticons = load_library(file_path)
     
     
         value.each do |key2, value2|
-          binding.pry 
+          if emoticon == value2
+                      binding.pry 
+
+          end 
   
         end
     end 
