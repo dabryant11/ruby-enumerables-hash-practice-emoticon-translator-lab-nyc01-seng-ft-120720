@@ -28,12 +28,14 @@ emoticons = load_library(file_path)
     
         value.each do |key2, value2|
           if emoticon == value2
-            value[:japanese]
-                      binding.pry 
+            return value[:japanese]
+          
+                       
 
           end 
   
         end
+        
     end 
 
  end 
