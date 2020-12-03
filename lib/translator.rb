@@ -31,7 +31,6 @@ emoticons = load_library(file_path)
             return value[:japanese]
           
                        
-
           end 
   
         end
