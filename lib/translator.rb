@@ -49,12 +49,11 @@ def get_english_meaning(file_path,emoticon)
     emoticons = load_library(file_path)
 
     emoticons.each do |key,value|
-#         value.each do |key2, value2|
-# binding.pry
+
           if emoticon == vaue[:english]
             return value[:english]
           end 
-        # end
+        
     end 
     return "Sorry, that emoticon was not found"
   end 
