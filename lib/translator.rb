@@ -45,11 +45,11 @@ emoticons = load_library(file_path)
  
  
  
-# def get_english_meaning(load_library)
-#     emoticons = YAML.load_file(emoticon_list)
+def get_english_meaning(load_library)
+    emoticons = YAML.load_file(emoticon_list)
 
-#     key_hash[name][:english]
-#   end 
+    key_hash[name][:english]
+  end 
   
   
   
