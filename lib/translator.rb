@@ -27,9 +27,7 @@ emoticons.each do |key,value|
     binding.pry 
     
     
-    if emoticons == emoticon 
-  emoticon 
-end 
+    
   emoticon[name][:japanese]
 
 end 
