@@ -32,7 +32,7 @@ emoticons = load_library(file_path)
           end 
         end
     end 
-    return 
+    return "Sorry, that emoticon was not found"
  end 
  
  
