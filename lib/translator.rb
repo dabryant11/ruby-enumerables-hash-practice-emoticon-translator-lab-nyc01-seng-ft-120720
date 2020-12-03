@@ -52,7 +52,7 @@ emoticons = load_library(file_path)
     emoticons.each do |key,value|
         value.each do |key2, value2|
           if emoticon == value2
-            return value
+            return key 
           end 
         end
     end 
