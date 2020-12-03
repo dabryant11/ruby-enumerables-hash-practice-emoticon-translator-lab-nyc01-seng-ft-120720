@@ -45,7 +45,7 @@ emoticons = load_library(file_path)
  
  
  
-def get_english_meaning(load_library)
+def get_english_meaning(file_path,emoticon)
     emoticons = load_library(file_path)
 
     emoticons.each do |key,value|
