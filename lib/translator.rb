@@ -46,9 +46,16 @@ emoticons = load_library(file_path)
  
  
 def get_english_meaning(load_library)
-    emoticons = YAML.load_file(emoticon_list)
+    emoticons = load_library(file_path)
 
-    key_hash[name][:english]
+    emoticons.each do |key,value|
+        value.each do |key2, value2|
+          if emoticon == value2
+            return value[:english]
+          end 
+        end
+    end 
+    return "Sorry, that emoticon was not found"
   end 
   
   
